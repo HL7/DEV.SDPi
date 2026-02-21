@@ -63,6 +63,33 @@ image::../images/vol1-diagram-sdpi-a-actor.svg[]
 
 ////
 
+sdpi_include_transaction::DEV-38[actor-id="somds_medical_alert_provider",responder="required"]
+sdpi_include_transaction::DEV-39[actor-id="somds_medical_alert_provider",initiator="required"]
+sdpi_include_transaction::DEV-40[actor-id="somds_medical_alert_provider",responder="required"]
+sdpi_include_transaction::DEV-48[actor-id="somds_medical_alert_provider",responder=optional,initiator=optional]
+sdpi_include_transaction::DEV-49[actor-id="somds_medical_alert_provider",responder="optional",initiator="optional"]
+
+sdpi_include_transaction::DEV-38[actor-id="somds_medical_alert_consumer",initiator="required"]
+sdpi_include_transaction::DEV-39[actor-id="somds_medical_alert_consumer",responder="required"]
+sdpi_include_transaction::DEV-40[actor-id="somds_medical_alert_consumer",initiator="optional"]
+sdpi_include_transaction::DEV-48[actor-id="somds_medical_alert_consumer",initiator=optional,receiver=optional]
+sdpi_include_transaction::DEV-49[actor-id="somds_medical_alert_consumer",responder="optional",initiator="optional"]
+
+sdpi_include_transaction::DEV-38[actor-id="somds_acm_gateway",responder="required"]
+sdpi_include_transaction::DEV-39[actor-id="somds_acm_gateway",initiator="required"]
+sdpi_include_transaction::DEV-40[actor-id="somds_acm_gateway",responder="required"]
+
+// Deferred transactions. 
+sdpi_include_transaction::DEV-41[actor-id="somds_medical_alert_provider",responder="optional",placeholder-name="Manage medical alert delegation"]
+sdpi_include_transaction::DEV-42[actor-id="somds_medical_alert_provider",initiator="optional",placeholder-name="Delegate medical alert"]
+sdpi_include_transaction::DEV-43[actor-id="somds_medical_alert_provider",responder="required",placeholder-name="Update alert acknowledgement status"]
+
+sdpi_include_transaction::DEV-41[actor-id="somds_medical_alert_consumer",initiator="optional",placeholder-name="Manage medical alert delegation"]
+sdpi_include_transaction::DEV-42[actor-id="somds_medical_alert_consumer",responder="optional",placeholder-name="Delegate medical alert"]
+sdpi_include_transaction::DEV-43[actor-id="somds_medical_alert_consumer",initiator="required",placeholder-name="Update alert acknowledgement status"]
+
+sdpi_include_transaction::DEV-43[actor-id="somds_acm_gateway",initiator="required",placeholder-name="Update alert acknowledgement status"]
+
 include::actor-tables/sdpi-a-transactions.adoc[]
 
 [#vol1_clause_sdpi_a_actor_descriptions_actor_profile_requirements]
@@ -163,11 +190,11 @@ This option enables <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> and 
 This option enables both the <<transaction_name_establish_distributed_alarm_system>> [DEV-48] and <<transaction_name_end_distributed_alarm_system>> [DEV-49] transactions.
 
 // Transaction obligations for distributed alarm system option. 
-sdpi_include_transaction::DEV-48[actor-id=somds_medical_alert_provider,responder=required]
-sdpi_include_transaction::DEV-49[actor-id=somds_medical_alert_provider,responder=required,initiator=required]
+sdpi_include_transaction::DEV-48[actor-id=somds_medical_alert_consumer,initiator=required,receiver=required]
+sdpi_include_transaction::DEV-48[actor-id=somds_medical_alert_provider,responder=required,initiator=required]
 
-sdpi_include_transaction::DEV-48[actor-id=somds_medical_alert_consumer,initiator=required]
-sdpi_include_transaction::DEV-49[actor-id=somds_medical_alert_consumer,responder=required,initiator=required]
+sdpi_include_transaction::DEV-49[actor-id=somds_medical_alert_consumer,initiator=required,receiver=required]
+sdpi_include_transaction::DEV-49[actor-id=somds_medical_alert_provider,responder=required,initiator=required]
 
 [#vol1_clause_sdpi_a_actor_option_alert_delegation,role=profile-option,profile-option-id=alert_delegation,oid-arcs=".4"]
 ==== Alert Delegation Option

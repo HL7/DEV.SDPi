@@ -21,7 +21,7 @@ data class SdpiActor(
 @Serializable
 data class SdpiActorRole(
     val actorId: String,
-    val contribution: Contribution,
+    val contributions: List<Contribution>,
     val description: List<String>,
 ) {
 }
