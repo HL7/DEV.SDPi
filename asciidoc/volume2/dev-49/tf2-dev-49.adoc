@@ -1,5 +1,7 @@
 :var_transaction_id: DEV-49
 
+:var_label_dev_49_operation_end_monitored_by_das: EndMonitoredByDAS
+:var_label_dev_49_operation_end_monitored_by_das_response: EndMonitoredByDASResponse
 
 //reset|+1|off
 [#vol2_clause_dev_49,sdpi_offset=49]
@@ -36,6 +38,41 @@ on its own initiative and notifies the <<vol1_spec_sdpi_a_actor_somds_medical_al
 ....
 include::../../plantuml/vol2-figure-dev-49-sequence.puml[]
 ....
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das]
+===== {var_label_dev_49_operation_end_monitored_by_das} Operation
+
+A <<vol1_spec_sdpi_a_actor_somds_medical_alert_consumer>> invokes the {var_label_dev_49_operation_end_monitored_by_das} operation on a <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> to end the Distributed Alarm System, as specified in <<ref_ieee_11073_10702_202x>>.
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das_trigger_events]
+====== Trigger Events
+
+When there is an active Distributed Alarm System between a <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> and a <<vol1_spec_sdpi_a_actor_somds_medical_alert_consumer>>, the {var_label_dev_49_operation_end_monitored_by_das} operation is invoked by the <<vol1_spec_sdpi_a_actor_somds_medical_alert_consumer>> to request the <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> to end the Distributed Alarm System.
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das_semantics]
+====== Message Semantics
+
+The {var_label_dev_49_operation_end_monitored_by_das} operation does not contain any further semantics.
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das_expected_actions]
+====== Expected Actions
+
+When a <<vol1_spec_sdpi_a_actor_somds_medical_alert_consumer>> invokes the {var_label_dev_49_operation_end_monitored_by_das} operation, the receiving <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> responds with a {var_label_dev_49_operation_end_monitored_by_das_response} message.
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das_response]
+===== {var_label_dev_49_operation_end_monitored_by_das_response} Operation Invoked Report Message
+
+A <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> responds with a {var_label_dev_49_operation_end_monitored_by_das_response} message to a <<vol1_spec_sdpi_a_actor_somds_medical_alert_consumer>>'s invocation of the {var_label_dev_49_operation_end_monitored_by_das} operation, as specified in <<ref_ieee_11073_10702_202x>>.
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das_response_trigger_events]
+====== Trigger Events
+
+The <<vol1_spec_sdpi_a_actor_somds_medical_alert_provider>> sends a {var_label_dev_49_operation_end_monitored_by_das_response} message back to the <<vol1_spec_sdpi_a_actor_somds_medical_alert_consumer>> that invoked the {var_label_dev_49_operation_end_monitored_by_das} operation.
+
+[#vol2_clause_dev_49_operation_end_monitored_by_das_response_semantics]
+====== Message Semantics
+TODO!!! - figure out menaing of the MDIB in this response message and document it here -
+
 
 [#vol2_clause_dev_49_publish_medical_alert_update_ses]
 include::../dev-x-default-ses-secured-mode.adoc[]
