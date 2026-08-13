@@ -100,7 +100,7 @@ NOTE:  #Add Appendix A Overview here w/ reference to Standard section#
 [bibliography#vol1_appendix_b_referenced_standards]
 === Referenced Standards
 
-NOTE: #Should this section be duplicated here to ensure that it is in the supplemenbt and eventually in the IHE DEV TF?#
+NOTE: #Should this section be duplicated here to ensure that it is in the supplement and eventually in the IHE DEV TF?#
 
 [%noheader]
 [%autowidth]
@@ -234,7 +234,7 @@ The following bibliographic references include slide decks and recordings that a
 // Appendix C
 // = Device Point-of-care Interoperability (DPI) Use Cases
 
-[appendix#vol1_appendix_c_dpi_use_cases,sdpi_offset=C]
+[appendix#clause_sdpi_use_cases,sdpi_offset=C]
 == Device Point-of-care Interoperability (DPI) Use Cases
 
 

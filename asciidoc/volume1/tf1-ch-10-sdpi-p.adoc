@@ -1036,7 +1036,7 @@ a| *{standard_note}*:  This section intentionally left blank for the current ver
 [#vol1_clause_sdpi_p_use_cases]
 ==== Use Cases
 [#vol1_clause_sdpi_p_use_cases_reftext, reftext='SDPi-P Use Cases']
-The SDPi-P Profile supports requirements from use cases detailed in <<vol1_appendix_c_dpi_use_cases>>.  The following subsections identify the specific use case requirements that are fulfilled with capabilities provided by this specification.
+The SDPi-P Profile supports requirements from use cases detailed in <<clause_sdpi_use_cases>>.  The following subsections identify the specific use case requirements that are fulfilled with capabilities provided by this specification.
 
 ////
 #TODO:  For each of these, add discussion to HOW and WHERE (with links) that the requirements are met.  Include a Requirements usage block?  CT DEPENDENCY IN SOMDS_PARTICIPANT MEETS THESE REQUIREMENTS#
@@ -1044,7 +1044,7 @@ The SDPi-P Profile supports requirements from use cases detailed in <<vol1_appen
 
 [role="support-use-case", use-case-id="stad", oid-arcs=.1]
 ===== <<label_use_case_name_stad>> (<<acronym_stad>>)
-This use case fully addresses the requirements from  <<vol1_clause_appendix_c_use_case_stad>>.
+This use case fully addresses the requirements from  << >>.
 
 Specific capabilities supporting the <<acronym_stad>> use case include:
 
@@ -1054,8 +1054,8 @@ Specific capabilities supporting the <<acronym_stad>> use case include:
 ////
 (see <<vol1_clause_sdpi_p_ensuring_time_synchronization>>)
 ////
-* *Technical Pre-Conditions*:  <<acronym_stad>> <<vol1_clause_appendix_c_use_case_stad_technical_precondition>> are fully supported by SDPi-P
-* *Scenarios*:  <<acronym_stad>> <<vol1_clause_appendix_c_use_case_stad_scenarios>> are fully supported by SDPi-P
+* *Technical Pre-Conditions*:  <<acronym_stad>> <<vol1_clause_sdpi_use_case_stad_technical_precondition>> are fully supported by SDPi-P
+* *Scenarios*:  <<acronym_stad>> <<vol1_clause_sdpi_usee_case_stad_scenarios>> are fully supported by SDPi-P
 
 ////
 #TODO:  Should a sequence diagram be included here?  Or in above?  For each of the STAD Scenarios a sequence diagram should be provided.  This could include transactions and actor linkages as well#
@@ -1075,14 +1075,14 @@ sdpi_support_use_case::discovery_proxy[support=required]
 
 [role="support-use-case", use-case-id="sicdsp", oid-arcs=.2]
 ===== <<label_use_case_name_sicdsp>> (<<acronym_sicdsp>>)
-This use case provides capabilities for requirements from <<vol1_clause_appendix_c_use_case_sicdsp>>.
+This use case provides capabilities for requirements from <<clause_use_case_sicdsp>>.
 
 Specific capabilities supporting the <<acronym_sicdsp>> use case include:
 
 * *System Type*:  <<acronym_md_lan>> supported by SDPi-P <<acronym_pnt>> capabilities (see <<vol1_figure_sdpi_p_example_sequence_diagram>>)
 * *System Type*:  <<system_type_dashboard>> is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
-* *Technical Pre-Conditions*: <<acronym_sicdsp>> <<vol1_clause_appendix_c_use_case_sicdsp_technical_precondition>> are fully supported by SDPi-P
-* *Scenarios*: <<acronym_sicdsp>> <<vol1_clause_appendix_c_use_case_sicdsp_scenarios>> basic communication requirements are supported by SDPi-P
+* *Technical Pre-Conditions*: <<acronym_sicdsp>> <<clause_use_case_sicdsp_technical_precondition>> are fully supported by SDPi-P
+* *Scenarios*: <<acronym_sicdsp>> <<clause_use_case_sicdsp_scenarios>> basic communication requirements are supported by SDPi-P
 
 ////
 #TODO:  Do SystemContext/PatientContext/LocationContext need to be called out here to meet requirements related to "ICU" or "single patient"?#
@@ -1095,14 +1095,14 @@ sdpi_support_use_case::biceps_content_consumer[support=optional]
 
 [role="support-use-case", use-case-id="sicdmp", oid-arcs=.3]
 ===== <<label_use_case_name_sicdmp>> (<<acronym_sicdmp>>)
-This use case provides capabilities for requirements from  <<vol1_clause_appendix_c_use_case_sicdmp>>.
+This use case provides capabilities for requirements from  <<clause_use_case_sicdmp>>.
 
 Specific capabilities supporting the <<acronym_sicdmp>> use case include:
 
 * *System Type*:  <<acronym_md_lan>> supported by SDPi-P <<acronym_pnt>> capabilities (see <<vol1_figure_sdpi_p_example_sequence_diagram>>)
 * *System Type*:  <<system_type_dashboard>> is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
-* *Technical Pre-Conditions*: <<acronym_sicdmp>> <<vol1_clause_appendix_c_use_case_sicdmp_technical_precondition>> are fully supported by SDPi-P
-* *Scenarios*: <<acronym_sicdmp>> <<vol1_clause_appendix_c_use_case_sicdmp_scenarios>> basic communication requirements are supported by SDPi-P
+* *Technical Pre-Conditions*: <<acronym_sicdmp>> <<clause_use_case_sicdmp_technical_precondition>> are fully supported by SDPi-P
+* *Scenarios*: <<acronym_sicdmp>> <<clause_use_case_sicdmp_scenarios>> basic communication requirements are supported by SDPi-P
 
 ////
 #TODO:  Do SystemContext/PatientContext/LocationContext need to be called out here to meet requirements related to "ICU" or "multiple patient"?#
@@ -1115,14 +1115,14 @@ sdpi_support_use_case::biceps_content_consumer[support=optional]
 
 [role="support-use-case", use-case-id="ddes", oid-arcs=.4]
 ===== <<label_use_case_name_ddes>> (<<acronym_ddes>>)
-This use case provides capabilities for requirements from  <<vol1_clause_appendix_c_use_case_ddes>>.
+This use case provides capabilities for requirements from  <<clause_use_case_ddes>>.
 
 Specific capabilities supporting the  <<acronym_ddes>> use case include:
 
 * *System Type*:  <<system_type_device_gateway>> is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
 * *Service Type*: Data  <<system_type_device_gateway>> Service is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
-* *Technical Pre-Conditions*: <<acronym_ddes>> <<vol1_clause_appendix_c_use_case_ddes_technical_precondition>> are fully supported by SDPi-P
-* *Scenarios*: <<acronym_ddes>> <<vol1_clause_appendix_c_use_case_ddes_scenarios>> basic communication requirements are supported by SDPi-P
+* *Technical Pre-Conditions*: <<acronym_ddes>> <<clause_use_case_ddes_technical_precondition>> are fully supported by SDPi-P
+* *Scenarios*: <<acronym_ddes>> <<clause_use_case_ddes_scenarios>> basic communication requirements are supported by SDPi-P
 
 sdpi_support_use_case::somds_connector[support=required]
 sdpi_support_use_case::somds_fhir_gateway[support=required]
@@ -1131,14 +1131,14 @@ sdpi_support_use_case::somds_sensor_gateway[support=required]
 
 [role="support-use-case", use-case-id="acns", oid-arcs=.5]
 ===== <<label_use_case_name_acns>> (<<acronym_acns>>)
-This use case provides capabilities for requirements from  <<vol1_clause_appendix_c_use_case_acns>>.
+This use case provides capabilities for requirements from  <<clause_use_case_acns>>.
 
 Specific capabilities supporting the <<acronym_acns>> use case include:
 
 * *System Type*:  <<label_system_type_name_agw>> (<<acronym_agw>>) is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
 * *Service Type*:  Alert <<system_type_device_gateway>> Service is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
-* *Technical Pre-Conditions*:  <<acronym_acns>> <<vol1_clause_appendix_c_use_case_acns_technical_precondition>> are fully supported by SDPi-P
-* *Scenarios*:  <<acronym_acns>> <<vol1_clause_appendix_c_use_case_acns_scenarios>> basic communication requirements are supported by SDPi-P
+* *Technical Pre-Conditions*:  <<acronym_acns>> <<clause_use_case_acns_technical_precondition>> are fully supported by SDPi-P
+* *Scenarios*:  <<acronym_acns>> <<clause_use_case_acns_scenarios>> basic communication requirements are supported by SDPi-P
 
 sdpi_support_use_case::somds_connector[support=optional]
 sdpi_support_use_case::somds_fhir_gateway[support=optional]
@@ -1147,14 +1147,14 @@ sdpi_support_use_case::somds_sensor_gateway[support=optional]
 
 [role="support-use-case", use-case-id="aars", oid-arcs=.6]
 ===== <<label_use_case_name_aars>> (<<acronym_aars>>)
-This use case provides capabilities for requirements from  <<vol1_clause_appendix_c_use_case_aars>>.
+This use case provides capabilities for requirements from  <<clause_use_case_aars>>.
 
 Specific capabilities supporting the <<acronym_aars>> use case include:
 
 * *System Type*:  <<label_system_type_name_agw>> (<<acronym_agw>>) is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
 * *Service Type*:  <<label_system_type_name_agw>> Service is supported by the BICEPS Content Module Systems Types Nomenclature (see <<vol1_table_system_type_nomenclature_extensions>>)
-* *Technical Pre-Conditions*:  <<acronym_aars>> <<vol1_clause_appendix_c_use_case_aars_technical_precondition>> are fully supported by SDPi-P
-* *Scenarios*:  <<acronym_aars>> <<vol1_clause_appendix_c_use_case_aars_scenarios>> basic communication requirements are supported by SDPi-P
+* *Technical Pre-Conditions*:  <<acronym_aars>> <<clause_use_case_aars_technical_precondition>> are fully supported by SDPi-P
+* *Scenarios*:  <<acronym_aars>> <<clause_use_case_aars_scenarios>> basic communication requirements are supported by SDPi-P
 
 sdpi_support_use_case::somds_connector[support=optional]
 sdpi_support_use_case::somds_fhir_gateway[support=optional]

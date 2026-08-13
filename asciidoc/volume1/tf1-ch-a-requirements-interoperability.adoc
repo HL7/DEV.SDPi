@@ -408,7 +408,7 @@ Given the rule above, bindings are made in the current <<vol2_appendix_a_mdpws_m
 There are no bindings in the opposite direction.
 Taking this approach, a new transport appendix could be added in the future without impacting the core transaction specifications.
 
-Application of this rule would also hold true in other places such as backward references from a profile's Use Case section to the specific <<vol1_appendix_c_dpi_use_cases>> use case and scenario requirements that they satisfy.
+Application of this rule would also hold true in other places such as backward references from a profile's Use Case section to the specific <<clause_sdpi_use_cases>> use case and scenario requirements that they satisfy.
 
 In some cases, it may be necessary to provide bi-directional bindings; however, that would be the exception, not the rule.
 

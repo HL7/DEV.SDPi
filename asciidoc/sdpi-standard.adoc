@@ -187,6 +187,8 @@ include::front-matter/terms-definitions.adoc[]
 
 include::front-matter/references.adoc[]
 
+include::use-cases/use-cases.adoc[]
+
 // = Volume 1 -- Profiles
 
 include::volume1/tf1-main.adoc[]

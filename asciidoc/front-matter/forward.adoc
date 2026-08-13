@@ -68,13 +68,22 @@ a| *{standard_note}*:  This section will explain the general organization and cl
 a| *{standard_note}*:  This section will explain why section numbers in IHE TF volumes are numbered the way they are and #why this standard has non-contiguous sections in volume 1-3!#.
 |===
 
-== Use of AsciiDoc
+== Use of AsciiDoc to Publish HTML
 [%noheader]
 [%autowidth]
 [cols="1"]
 |===
 a| *{standard_note}*:  Explaination and rationale behind the use of AsciiDoc for capturing the content of this standard.
 This will include other options that were considered, as well as the unique emergence in this document (e.g., during the pandemic) and the position it plays sitting between work from many other standards organizations that has been evolving over decades.
+|===
+
+== Export of Conformance Requirements
+[%noheader]
+[%autowidth]
+[cols="1"]
+|===
+a| *{standard_note}*:  Explantion of the conformance related requirements metadata into the JSON files contained in the referenced-artifacts folder.
+Include a table with the file names and purpose, per what will be published in the profiles.IHE.net/DEV SDPi pages.
 |===
 
 include::standard-issues.adoc[]

@@ -39,12 +39,12 @@ NOTE:  Forward Declarations in the following table are being added "on demand" o
 
 | [[acronym_aars,AARS]] AARS
 | [[label_use_case_name_aars,Alerts to Alert Recording Systems]] Alerts to Alert Recording Systems
-| <<vol1_clause_appendix_c_use_case_aars>>
+| <<clause_use_case_aars>>
 | Use Case
 
 | [[acronym_acns,ACNS]] ACNS
 | [[label_use_case_name_acns,Alerts to Clinician Notification Systems]] Alerts to Clinician Notification Systems
-| <<vol1_clause_appendix_c_use_case_acns>>
+| <<clause_use_case_acns>>
 | Use Case
 
 | [[acronym_agw,AGW]] AGW
@@ -64,7 +64,7 @@ NOTE:  Forward Declarations in the following table are being added "on demand" o
 
 | [[acronym_ddes,DDES]] DDES
 | [[label_use_case_name_ddes,Device Data to Enterprise Systems]] Device Data to Enterprise Systems
-| <<vol1_clause_appendix_c_use_case_ddes>>
+| <<clause_use_case_ddes>>
 | Use Case
 
 | [[acronym_mdpws,MDPWS]] MDPWS
@@ -79,17 +79,17 @@ NOTE:  Forward Declarations in the following table are being added "on demand" o
 
 | [[acronym_sicdmp,SICDmp]] SICDmp
 | [[label_use_case_name_sicdmp,Standalone ICU Dashboard Multiple Patient]] Standalone ICU Dashboard Multiple Patient
-| <<vol1_clause_appendix_c_use_case_sicdmp>>
+| <<clause_use_case_sicdmp>>
 | Use Case
 
 | [[acronym_sicdsp,SICDsp]] SICDsp
 | [[label_use_case_name_sicdsp,Standalone ICU Dashboard Single Patient]] Standalone ICU Dashboard Single Patient
-| <<vol1_clause_appendix_c_use_case_sicdsp>>
+| <<clause_use_case_sicdsp>>
 | Use Case
 
 | [[acronym_stad,STAD]] STAD
 | [[label_use_case_name_stad,Synchronized Time Across Devices]] Synchronized Time Across Devices
-| <<vol1_clause_appendix_c_use_case_stad>>
+| <<clause_use_case_stad>>
 | Use Case
 
 |===
