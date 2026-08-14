@@ -179,6 +179,8 @@ Editorial Task List (prioritized) for this Supplement:
 
 |===
 
+NOTE: #QUESTION:  For the STANDARD, should section numbers be added or omitted and only have those for the Volume 1-3 that conform to IHE DEV TF elements?#
+
 include::front-matter/forward.adoc[]
 
 include::front-matter/overview.adoc[]
