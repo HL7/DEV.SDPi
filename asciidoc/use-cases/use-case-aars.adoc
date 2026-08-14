@@ -1,17 +1,17 @@
 [#clause_use_case_aars,sdpi_offset=7]
 [role=use-case,use-case-id=aars,sdpi_feature="Alerts to Alert Recording Systems",oid-arcs=".6"]
-=== Use Case Feature {var_use_case_id}: <<label_use_case_name_aars>> (<<acronym_aars>>)
+== Use Case Feature {var_use_case_id}: <<label_use_case_name_aars>> (<<acronym_aars>>)
 
 // NOTE:  See use case labels in document-declarations.adoc
 
-==== Narrative
+=== Narrative
 
 Mumbai General is in the process of installing an IT system which will capture alerts from their ICU devices (patient monitors, ventilators, infusion devices, etc.) for the purposes of occasional review by physicians and post-discharge analysis.  (Other related use cases could include EHR capture of alerts or alert analysis).
 
-==== Benefits
+=== Benefits
 The ability to review alerts allows clinicians to track the condition of a patient over a longer time span.  For example to see whether a medication is reducing the occurrence of specific events such as ventricular beats or tachycardia events.
 
-==== Technical View
+=== Technical View
 
 .<<label_use_case_name_aars>> (<<acronym_aars>>) -- Technical View
 
@@ -19,7 +19,7 @@ image::../images/vol1-diagram-use-case-aars-tech-view.svg[]
 
 
 [#clause_use_case_aars_technical_precondition]
-==== Technical Pre-Conditions
+=== Technical Pre-Conditions
 
 [role=use-case-background]
 ====
@@ -35,11 +35,11 @@ image::../images/vol1-diagram-use-case-aars-tech-view.svg[]
 ====
 
 [#clause_use_case_aars_scenarios]
-==== Scenarios
+=== Scenarios
 
 [role=use-case-scenario,sdpi_scenario="New device is connected to network with AGW service"]
 [oid-arcs=".1"]
-===== Scenario: <<acronym_aars>> {var_use_case_id}.1 - New device is connected to network with AGW service
+==== Scenario: <<acronym_aars>> {var_use_case_id}.1 - New device is connected to network with AGW service
 
 [role=use-case-steps]
 ====
@@ -52,7 +52,7 @@ image::../images/vol1-diagram-use-case-aars-tech-view.svg[]
 
 [role=use-case-scenario,sdpi_scenario="The AGW service loses connectivity with the ICU devices"]
 [oid-arcs=".2"]
-===== Scenario: <<acronym_aars>> {var_use_case_id}.2 - The AGW service loses connectivity with the ICU devices
+==== Scenario: <<acronym_aars>> {var_use_case_id}.2 - The AGW service loses connectivity with the ICU devices
 
 [role=use-case-steps]
 ====
@@ -67,7 +67,7 @@ image::../images/vol1-diagram-use-case-aars-tech-view.svg[]
 
 [role=use-case-scenario,sdpi_scenario="The AGW service fails"]
 [oid-arcs=".3"]
-===== Scenario: <<acronym_aars>> {var_use_case_id}.3 - The AGW service fails
+==== Scenario: <<acronym_aars>> {var_use_case_id}.3 - The AGW service fails
 
 [role=use-case-steps]
 ====
@@ -80,7 +80,7 @@ image::../images/vol1-diagram-use-case-aars-tech-view.svg[]
 
 [role=use-case-scenario,sdpi_scenario="The Alert Recording System loses connectivity with the AGW"]
 [oid-arcs=".4"]
-===== Scenario: <<acronym_aars>> {var_use_case_id}.4 - The Alert Recording System loses connectivity with the AGW
+==== Scenario: <<acronym_aars>> {var_use_case_id}.4 - The Alert Recording System loses connectivity with the AGW
 
 [role=use-case-steps]
 ====

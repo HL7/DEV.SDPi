@@ -110,18 +110,18 @@ include::use-case-stad.adoc[]
 include::use-case-sicdsp.adoc[]
 
 // C.4  Use Case Feature: Standalone ICU Dashboard MP (SICDMP)
-:var_use_case_id: 3
+//:var_use_case_id: 3
 include::use-case-sicdmp.adoc[]
 
 // C.5  Use Case Feature: Device Data to Enterprise Systems (DDES)
-:var_use_case_id: 4
+//:var_use_case_id: 4
 include::case-ddes.adoc[]
 
 // C.6  Use Case Feature: Alerts to Clinician Notification Systems (ACNS)
-:var_use_case_id: 5
+//:var_use_case_id: 5
 include::use-case-acns.adoc[]
 
 // C.7  Use Case Feature: Alerts to Alert Recording Systems (AARS)
-:var_use_case_id: 6
+//:var_use_case_id: 6
 include::use-case-aars.adoc[]
 

@@ -67,7 +67,7 @@ The version shall be interpreted by two RefActor:somds_participant[]s as:
 [#vol3_appendix_c_oid_namespaces]
 === Namespaces and URIs
 
-<<vol0_xml_namespaces,Namespaces>> and URIs defined in this specification are assigned OIDs from the `.*1*` arc under the <<vol3_appendix_c_oid_top,Top level SDPi OID>>. OIDs within the namespace parent OID `{sdpi-parent-oid}.1` are used for URIs (such as custom filter dialects), XSD schema and WSDL namespaces including:
+<<clause_sdpi_xml_namespaces,Namespaces>> and URIs defined in this specification are assigned OIDs from the `.*1*` arc under the <<vol3_appendix_c_oid_top,Top level SDPi OID>>. OIDs within the namespace parent OID `{sdpi-parent-oid}.1` are used for URIs (such as custom filter dialects), XSD schema and WSDL namespaces including:
 
 * <<vol3_appendix_b_biceps_extension_namespace,Extensions to the BICEPS participant and message model>>.
 * <<vol1_clause_sdpi_p_option_managed_discovery,Managed discovery profile actor option>>.
